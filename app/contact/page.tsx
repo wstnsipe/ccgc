@@ -196,7 +196,7 @@ export default function ContactPage() {
                     alt={person.name}
                     width={56}
                     height={56}
-                    className="object-cover object-top w-full h-full"
+                    className="object-cover object-center w-full h-full"
                     unoptimized
                   />
                 </div>

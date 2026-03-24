@@ -296,7 +296,7 @@ export default function Home() {
                     src={person.photo}
                     alt={person.name}
                     fill
-                    className="object-cover object-top transition-all duration-500"
+                    className="object-cover object-center transition-all duration-500"
                     unoptimized
                   />
                   {/* Gradient overlay */}

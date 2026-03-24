@@ -137,7 +137,7 @@ export default function SectorsPage() {
                           alt={sector.leader}
                           width={48}
                           height={48}
-                          className="object-cover object-top w-full h-full"
+                          className="object-cover object-center w-full h-full"
                           unoptimized
                         />
                       </div>

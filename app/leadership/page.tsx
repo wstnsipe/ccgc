@@ -60,7 +60,7 @@ export default function LeadershipPage() {
                     alt={person.name}
                     width={56}
                     height={56}
-                    className="object-cover object-top w-full h-full"
+                    className="object-cover object-center w-full h-full"
                     unoptimized
                   />
                 </div>
@@ -90,7 +90,7 @@ export default function LeadershipPage() {
                       src={person.photo}
                       alt={person.name}
                       fill
-                      className="object-cover object-top"
+                      className="object-cover object-center"
                       unoptimized
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0A1628]/60 via-transparent to-transparent" />

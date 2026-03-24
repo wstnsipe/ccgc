@@ -320,7 +320,7 @@ export default function BookPage() {
                           alt={p.name}
                           width={40}
                           height={40}
-                          className="object-cover object-top w-full h-full"
+                          className="object-cover object-center w-full h-full"
                           unoptimized
                         />
                       </div>
