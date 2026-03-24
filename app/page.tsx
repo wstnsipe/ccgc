@@ -291,12 +291,12 @@ export default function Home() {
                 className="group img-zoom bg-white rounded-sm shadow-sm shadow-gray-100 border border-gray-100/80 overflow-hidden card-hover"
               >
                 {/* Photo */}
-                <div className="relative h-80 bg-[#0A1628]">
+                <div className="relative aspect-[3/4] bg-[#111C2E]">
                   <Image
                     src={person.photo}
                     alt={person.name}
                     fill
-                    className="object-cover object-center transition-all duration-500"
+                    className="object-contain object-center transition-all duration-500"
                     unoptimized
                   />
                   {/* Gradient overlay */}
